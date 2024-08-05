@@ -1,0 +1,24 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": "adminpass",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "username": "user1",
+        "password": "password1",
+        "role": "user"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Product1",
+        "price": 100
+      }
+    ]
+  }
+  

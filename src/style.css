@@ -1,0 +1,142 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* hover a estos h1 o link de registro y login */
+a {
+  font-weight: 500;
+  color: #3b5998;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #4a52ee;
+}
+
+/* quitando decoracion de los ul */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* centrando el titulo */
+.tituloEmpresa{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+
+}
+
+
+/* dando un stilo especial al titulo */
+h1 {
+  text-align: left; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 30px; 
+color: #EBD758; 
+text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+font-size: 4rem;
+display: flex;
+justify-content: space-around;
+}
+h1:hover {
+  color: #4a52ee;
+  
+
+    
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  padding: auto;
+}
+
+/* contenedor principal de login */
+.contenedorPL{
+display: flex;
+justify-content: center;
+
+  
+}
+
+
+.contenedorRegister{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: block !important;;
+  
+}
+
+/* CONTENEDOR DAS */
+.contenedorDAS{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 1000ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #42b72a);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #0866ff);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+/* boton de conteo */
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
